@@ -19,5 +19,6 @@ class Instructor::CoursesControllerTest < ActionController::TestCase
      		course_last = Course.order(:created_at).last
      		assert_redirected_to instructor_course_path(course_last)
    end
+   
 
 end
