@@ -2,9 +2,13 @@
 <div class="booyah-box col-xs-10 col-xs-offset-1">
 	<h1 class="text-center"><%= current_course.title %></h1>
 	<br />
+	<br />
 	<%= link_to 'Preview As Student', course_path(current_course), :class => 'btn btn-primary btn-lg' %>
-	<br class="clr" />
-	<%= image_tag current_course.image, :class => 'image-responsive' %>
+	<br class="clear" />
+	<br />
+	<%= image_tag current_course.image, :class => 'img-responsive' %>
+	<br class="clear" />
+	<br />
 	<div class="text-center">
   		<%= link_to 'Add a new Section', new_instructor_course_section_path(current_course), :class => 'btn btn-primary btn-lg' %>
   	</div>
