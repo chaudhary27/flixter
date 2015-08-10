@@ -1,4 +1,7 @@
-FactoryGirl.define do
+FactoryGirl.define do  factory :enrollment do
+    
+  end
+
 
 	factory :course do
 		title "Java for Beginners"
