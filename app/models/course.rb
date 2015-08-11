@@ -9,6 +9,14 @@ class Course < ActiveRecord::Base
 	validates :description, :presence => {:message => "Description is required!"}
 	validates :cost, :presence => true, :numericality => {:greater_than_or_equal_to => 0}
 
+	def free?
+		cost.zero?
+	end
+
+	def premium?
+		! free?
+	end
+
 	def course_id
 		"Course ID # " + self.id.to_s
 	end
