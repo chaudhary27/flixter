@@ -5,3 +5,7 @@ AWS_SECRET_KEY: "5cKfMgxCKBaADQbAXixqc5HY6DnEY1Mr2sXTYZ0K"
 AWS_BUCKET: "firehoseflixterfaisal"
 
 AWS_REGION: "us-east-1"
+
+SECRET_KEY: sk_test_CSu1NVIeHvQvQRrouTwMz4MZ
+
+PUBLISHABLE_KEY: pk_test_ZAlOE6aQ9Gmxx4ttYu7NBJaY
