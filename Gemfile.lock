@@ -174,7 +174,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise (>= 3.2.4)
   factory_girl_rails (~> 4.0)
-  figaro
+  figaro (>= 1.0.0)
   jbuilder (~> 1.2)
   jquery-rails
   jquery-ui-rails
