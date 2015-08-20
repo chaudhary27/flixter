@@ -59,14 +59,53 @@
 
 	<br class="clr" />
 
-	<div id="footer">
+    <div id="footer">
 		<div class="container">
-		<b>Teachers</b>
-		<b />
-		<%= link_to 'Teach a new course', new_instructor_course_path %>
+           <div class="col-xs-12 col-sm-3">
+            <b>Teachers</b>
+            <br />
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <b>About</b>
+            <br />
+            <%= link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', privacy_path %>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <b>Contact</b>
+            <br />
+            chaudhary.fsl@gmail.com
+            <br />
+            Queens
+            <br />
+            NYC NY, 11101
+          </div>
+          <div class="col-xs-12 col-sm-3 social">
+            <b>Social</b>
+            <br />
+            <br />
 
-		</div>
-	</div>
+            <%= link_to 'https://github.com/chaudhary27' do %>
+            <%= image_tag 'github.png', :class => 'social-button' %>
+            <% end %>
+
+            <%= link_to 'https://www.facebook.com/theFirehoseProject' do %>
+            <%= image_tag 'facebook.png', :class => 'social-button' %>
+            <% end %>
+
+            <%= link_to 'https://twitter.com/ffarooq00' do %>
+            <%= image_tag 'twitter.png', :class => 'social-button' %>
+            <% end %>
+
+          </div>
+        </div>
+    </div>
 
 
 </body>
