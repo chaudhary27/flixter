@@ -1,3 +1,4 @@
+require "awesome_print"
 class Course < ActiveRecord::Base
 
 	belongs_to :user
